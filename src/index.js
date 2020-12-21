@@ -12,7 +12,7 @@ const graphQLOptions = {
   playgroundEndpoint: '/graphql',
 
   // When a request's path isn't matched, forward it to the origin
-  forwardUnmatchedRequestsToOrigin: false,
+  forwardUnmatchedRequestsToOrigin: true,
 
   // Enable debug mode to return script errors directly in browser
   debug: true,
