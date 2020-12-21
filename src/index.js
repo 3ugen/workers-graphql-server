@@ -5,7 +5,7 @@ const setCors = require('./utils/setCors')
 const graphQLOptions = {
   // Set the path for the GraphQL server
   // baseEndpoint: 'https://query-templates.hasura.app/v1/',
-  baseEndpoint: '5.189.114.33:8888',
+  baseEndpoint: 'https://query-templates.hasura.app/v1/',
 
   // Set the path for the GraphQL playground
   // This option can be removed to disable the playground route
@@ -15,12 +15,12 @@ const graphQLOptions = {
   forwardUnmatchedRequestsToOrigin: false,
 
   // Enable debug mode to return script errors directly in browser
-  debug: false,
+  debug: true,
 
   // Enable CORS headers on GraphQL requests
   // Set to `true` for defaults (see `utils/setCors`),
   // or pass an object to configure each header
-  cors: true,
+  cors: false,
   // cors: {
   //   allowCredentials: 'true',
   //   allowHeaders: 'Content-type',
