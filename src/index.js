@@ -4,7 +4,8 @@ const setCors = require('./utils/setCors')
 
 const graphQLOptions = {
   // Set the path for the GraphQL server
-  baseEndpoint: 'https://query-templates.hasura.app/v1/',
+  // baseEndpoint: 'https://query-templates.hasura.app/v1/',
+  baseEndpoint: '5.189.114.33:8888',
 
   // Set the path for the GraphQL playground
   // This option can be removed to disable the playground route
